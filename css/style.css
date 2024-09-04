@@ -4,5 +4,14 @@
 }
 
 :root{
-    
+    --tob-:black;
+    --tob-:white;
+    --tob-mobile:orange;
+    --tob-website:pink;
+    --tob-editorial: rgb(12, 156, 240);
+    --tob-sales: rgb(188, 231, 188);
+    --tob-goals: rgb(240, 37, 240);
+    --tob-recruiting: rgb(9, 241, 21);
+    --tob-cross-color: red;
+    --tob-checkmark-color:green;
 }
