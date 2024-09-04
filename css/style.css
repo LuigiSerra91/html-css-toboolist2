@@ -38,6 +38,7 @@ body{
 
 .logo_img{
     vertical-align: middle;
+    padding-left: 10px;
 }
 
 .card_container{
@@ -47,5 +48,27 @@ body{
     padding-right: 80px;
     margin: auto;
     margin-top: 30px;
+}
+
+.bt_task{
+    background-color: var(--tob-editorial);
+    color: aliceblue;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+
+}
+
+.bt_section{
+    color: gray;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+
+}
+
+.section_button{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
