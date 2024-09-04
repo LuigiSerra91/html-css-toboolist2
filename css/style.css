@@ -15,3 +15,20 @@
     --tob-cross-color: red;
     --tob-checkmark-color:green;
 }
+
+
+body{
+    background-color: rgb(202, 202, 202);
+}
+
+.container{
+    width: 80%;
+}
+
+.card_container{
+    background-color:white;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+}
