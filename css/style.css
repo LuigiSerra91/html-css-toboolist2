@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    box-sizing: border-box;
+
 }
 
 :root{
@@ -19,10 +19,13 @@
 
 body{
     background-color: rgb(202, 202, 202);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .container{
-    width: 80%;
+    width: 70%;
+    margin: auto;
 }
 
 #app_header{
@@ -43,11 +46,13 @@ body{
 
 .card_container{
     background-color:white;
-    width: 45%;
-    padding-left: 80px;
-    padding-right: 80px;
+    width: 40%;
+    padding-left: 70px;
+    padding-right: 70px;
     margin: auto;
     margin-top: 30px;
+    padding-bottom: 15px;
+    
 }
 
 .bt_task{
@@ -67,8 +72,88 @@ body{
 
 }
 
-.section_button{
+.card_header{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-bottom:3px solid coral;
+
+}
+
+
+
+
+.badge_edit{
+    background-color: var(--tob-editorial);
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+}
+
+.badge_goals{
+    background-color: var(--tob-goals);
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+}
+
+.badge_recruiting{
+    background-color: var(--tob-recruiting);
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+}
+
+.badge_mobile{
+    background-color: var(--tob-mobile);
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+}
+
+.no_liststyle{
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.li_list{
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
+
+.icon_mark{
+    font-size: 0.8rem;
+    display: inline-block;
+    border: 1px solid green;
+    width: 1.15rem;
+    height: 1.15rem;
+    text-align: center;
+    line-height: 1.15rem;
+    border-radius: 50%;
+    color: green;
+}
+
+.icon_cross{
+    font-size: 0.8rem;
+    display: inline-block;
+    border: 1px solid red;
+    width: 1.15rem;
+    height: 1.15rem;
+    text-align: center;
+    line-height: 1.15rem;
+    border-radius: 50%;
+    color: red;
+}
